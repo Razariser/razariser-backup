@@ -1,31 +1,28 @@
-
-
-Index · HTML
 <!DOCTYPE html>
 <html lang='en'>
 <head>
 <meta charset='UTF-8'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <title>Razariser &mdash; Rise Beyond Ordinary | Premium Men's Designer Wear</title>
- 
+
 <!-- ── SEO essentials (additive — safe to remove without affecting the site) ── -->
 <meta name='description' content="Razariser — premium men's designer wear. Expertly crafted shirts, trousers, cargo pants, joggers and co-ord sets in limited-edition drops for the modern Indian gentleman."/>
 <meta name='keywords' content='Razariser, mens designer wear, premium menswear India, designer shirts, cargo pants, joggers, co-ord sets, mens fashion'/>
 <meta name='robots' content='index, follow'/>
 <link rel='canonical' href='https://ryzen-three.vercel.app/'/>
- 
+
 <meta property='og:type' content='website'/>
 <meta property='og:site_name' content='Razariser'/>
 <meta property='og:title' content="Razariser — Rise Beyond Ordinary | Premium Men's Designer Wear"/>
 <meta property='og:description' content="Premium men's designer wear crafted with high-quality fabrics and modern designs. Limited-edition menswear for those who value style, confidence, and individuality."/>
 <meta property='og:url' content='https://ryzen-three.vercel.app/'/>
 <meta property='og:image' content='https://ryzen-three.vercel.app/hero.jpg'/>
- 
+
 <meta name='twitter:card' content='summary_large_image'/>
 <meta name='twitter:title' content="Razariser — Rise Beyond Ordinary"/>
 <meta name='twitter:description' content="Premium men's designer wear for the modern gentleman."/>
 <meta name='twitter:image' content='https://ryzen-three.vercel.app/hero.jpg'/>
- 
+
 <script type='application/ld+json'>
 {
   "@context": "https://schema.org",
@@ -38,17 +35,17 @@ Index · HTML
 }
 </script>
 <!-- ── end SEO essentials ── -->
- 
+
 <link rel='preconnect' href='https://fonts.googleapis.com'/>
 <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin/>
 <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&amp;family=Montserrat:wght@400;500;600;700;800;900&amp;family=Inter:wght@300;400;500&amp;display=swap' rel='stylesheet'/>
 <style>
 :root{
-  --gold:#C0392B;--gold-l:#E4574B;--gold-d:#8E2A1E;
-  --black:#F2F0EC;--dark:#151518;--dark2:#151518;
-  --bg:#0A0A0C;--bone:#151518;--bone2:rgba(255,255,255,.10);--white:#fff;
-  --line:rgba(255,255,255,.10);--ink:#111111;
-  --gray:#9A9AA0;--gray2:#6E6E74;--t:.25s ease;
+  --gold:#B23A2E;--gold-l:#D9614A;--gold-d:#7A2620;
+  --black:#F5F1E8;--dark:#16130F;--dark2:#1B1712;
+  --bg:#0B0908;--bone:#16130F;--bone2:rgba(255,255,255,.08);--white:#fff;
+  --line:rgba(255,255,255,.09);--ink:#12100D;
+  --gray:#9C948A;--gray2:#6E655B;--t:.25s ease;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;overflow-x:hidden}
@@ -57,7 +54,7 @@ img{max-width:100%;height:auto;display:block}
 a{text-decoration:none;color:inherit}
 ul{list-style:none}
 button{cursor:pointer;border:none;background:none;font-family:inherit}
- 
+
 /* UTIL */
 .eyebrow{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
 .section-title{font-family:'Montserrat',sans-serif;font-size:clamp(20px,3vw,30px);font-weight:800;letter-spacing:1px;text-transform:uppercase}
@@ -69,13 +66,14 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .btn-od{background:transparent;color:var(--black);border-color:var(--black)}
 .btn-od:hover{background:var(--white);color:#0A0A0C}
 .btn-sm{padding:10px 18px;font-size:10px}
- 
+
 /* HEADER */
 #hdr{background:var(--bg);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:900;transition:box-shadow .3s}
 #hdr.scrolled{box-shadow:0 2px 24px rgba(0,0,0,.08)}
 .hdr-in{max-width:1400px;margin:0 auto;padding:0 32px;height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .logo{font-family:'Montserrat',sans-serif;font-size:19px;font-weight:800;letter-spacing:4px;color:var(--black);text-transform:uppercase;white-space:nowrap;display:flex;align-items:center;gap:10px}
 .logo .logo-r{width:30px;height:30px;border:1.5px solid var(--black);display:flex;align-items:center;justify-content:center;font-family:'Montserrat',sans-serif;font-weight:800;font-size:14px}
+.backup-pill{font-family:'Montserrat',sans-serif;font-size:9.5px;font-weight:600;letter-spacing:.3px;text-transform:none;color:var(--gold-l);border:1px solid rgba(217,97,74,.45);background:rgba(217,97,74,.08);padding:3px 10px;border-radius:20px;margin-left:10px;vertical-align:middle}
 .nav{display:flex;align-items:center}
 .nav a,.nav-t{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(242,240,236,.7);padding:8px 15px;position:relative;transition:color var(--t);cursor:pointer;white-space:nowrap}
 .nav a:hover,.nav-t:hover,.nav a.act{color:var(--black)}
@@ -83,14 +81,14 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .nav-dd:hover .dd{display:block}
 .dd{display:none;position:absolute;top:calc(100% + 8px);left:0;background:var(--dark2);min-width:190px;border-top:2px solid var(--gold);box-shadow:0 12px 40px rgba(0,0,0,.35);z-index:200}
 .dd a{display:block;padding:11px 18px;font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:rgba(242,240,236,.65);border-bottom:1px solid var(--line);transition:background var(--t),color var(--t)}
-.dd a:hover{background:rgba(200,168,130,.12);color:var(--black)}
+.dd a:hover{background:rgba(214,140,120,.12);color:var(--black)}
 .hdr-icons{display:flex;align-items:center;gap:12px}
 .hico{color:var(--black);padding:6px;transition:color var(--t);position:relative;display:flex;align-items:center}
 .hico:hover{color:var(--gold-d)}
 .hico svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.8;display:block}
 .badge{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#fff;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;min-width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;padding:0 3px}
 .hbg{display:none;align-items:center;justify-content:center;padding:6px;color:var(--black)}
- 
+
 /* SEARCH */
 #srch{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:2000;display:none;align-items:flex-start;justify-content:center;padding-top:130px}
 #srch.open{display:flex}
@@ -99,17 +97,21 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .srch-wrap input::placeholder{color:rgba(255,255,255,.3)}
 .srch-x{position:absolute;top:30px;right:30px;color:var(--white);font-size:30px;cursor:pointer;background:none;border:none;line-height:1}
 .srch-x:hover{color:var(--gold)}
- 
+
 /* MOB NAV */
 #mnav{position:fixed;inset:0;background:var(--bg);z-index:1800;display:none;flex-direction:column;padding:80px 36px 40px;overflow-y:auto}
 #mnav.open{display:flex}
 .mnav-x{position:absolute;top:18px;right:22px;font-size:28px;color:var(--black);background:none;border:none;cursor:pointer;line-height:1}
 #mnav a{font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--black);padding:14px 0;border-bottom:1px solid var(--line);display:block;transition:color .2s}
 #mnav a:hover{color:var(--gold-d)}
- 
+
 /* HERO */
 #hero{background:var(--bg);min-height:92vh;display:flex;align-items:stretch;overflow:hidden;padding:56px 0;position:relative}
 .hero-l{flex:0 0 42%;display:flex;flex-direction:column;justify-content:center;padding:40px 40px 40px 44px;position:relative;z-index:2}
+.hero-emblem{width:120px;height:120px;position:absolute;top:20px;right:32px;pointer-events:none;opacity:0;transition:opacity 1s ease;z-index:3}
+.hero-emblem.ready{opacity:1}
+.hero-emblem canvas{width:100% !important;height:100% !important;display:block}
+@media(max-width:900px){.hero-emblem{top:8px;right:8px;width:88px;height:88px}}
 .hero-tag{display:inline-flex;align-items:center;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(242,240,236,.7);border:1px solid var(--line);padding:7px 14px;border-radius:20px;margin-bottom:28px;width:fit-content;background:transparent}
 .hero-h1{font-family:'Montserrat',sans-serif;font-size:clamp(40px,5.2vw,64px);font-weight:900;line-height:1.02;text-transform:uppercase;color:var(--black);margin-bottom:22px}
 .hero-h1 em{font-style:normal;color:var(--black)}
@@ -125,11 +127,11 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .slbl{font-size:9px;color:rgba(242,240,236,.5);letter-spacing:1px;text-transform:uppercase;font-family:'Montserrat',sans-serif;margin-top:2px}
 .hero-r{flex:1;position:relative;overflow:hidden;display:flex;align-items:stretch}
 .hero-center{flex:1;position:relative;display:flex;align-items:center;justify-content:center;min-height:520px}
-.hero-center::before{content:'';position:absolute;width:min(60%,420px);aspect-ratio:1;border-radius:50%;border:1px solid rgba(200,168,130,.55);box-shadow:0 0 90px 20px rgba(200,168,130,.10);opacity:.9}
-.hero-center::after{content:'';position:absolute;bottom:6%;width:46%;height:26px;background:radial-gradient(ellipse,rgba(198,118,59,.4),transparent 70%);filter:blur(4px)}
+.hero-center::before{content:'';position:absolute;width:min(60%,420px);aspect-ratio:1;border-radius:50%;border:1px solid rgba(214,140,120,.55);box-shadow:0 0 90px 20px rgba(214,140,120,.10);opacity:.9}
+.hero-center::after{content:'';position:absolute;bottom:6%;width:46%;height:26px;background:radial-gradient(ellipse,rgba(178,58,46,.4),transparent 70%);filter:blur(4px)}
 .hero-ph{position:relative;z-index:2;width:82%;max-width:420px;aspect-ratio:3/4;display:flex;align-items:flex-end;justify-content:center;overflow:hidden}
-.hero-ph img{width:100%;height:100%;object-fit:cover;object-position:top center;-webkit-mask-image:linear-gradient(to bottom,#000 88%,transparent 100%);mask-image:linear-gradient(to bottom,#000 88%,transparent 100%)}
-#hero-3d-mount{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s ease}
+.hero-ph img{width:100%;height:100%;object-fit:cover;object-position:top center;-webkit-mask-image:linear-gradient(to bottom,#000 88%,transparent 100%);mask-image:linear-gradient(to bottom,#000 88%,transparent 100%);position:relative;z-index:2}
+#hero-3d-mount{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s ease;z-index:1;mix-blend-mode:screen}
 #hero-bg-3d{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:0;transition:opacity 1.8s ease}
 #hero-bg-3d.ready{opacity:1}
 #hero-bg-3d canvas{width:100% !important;height:100% !important;display:block}
@@ -140,10 +142,10 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .hthumb:hover img{transform:scale(1.08);opacity:1}
 .hthumb::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75),transparent 55%)}
 .hthumb-lbl{position:absolute;bottom:10px;right:12px;text-align:right;z-index:2;font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;line-height:1.3}
- 
+
 /* FEATURES BAR (bottom, pre-footer) */
 #trust{display:none}
- 
+
 /* SHOP / TRENDING */
 #shop{padding:80px 40px;background:var(--bg)}
 .shop-hdr{max-width:1400px;margin:0 auto 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px}
@@ -154,7 +156,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .ftabs{display:flex;gap:4px;margin-top:0}
 .ftab{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:9px 16px;color:var(--gray);cursor:pointer;transition:var(--t);border:1px solid transparent;background:none}
 .ftab.on,.ftab:hover{color:var(--black);border-color:var(--line);background:rgba(255,255,255,.05)}
- 
+
 /* PRODUCT GRID */
 #pgrid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .pc{position:relative;cursor:pointer}
@@ -166,7 +168,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .pbadge{position:absolute;top:10px;left:10px;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:5px 9px;z-index:2}
 .b-pre{background:var(--gold);color:#fff}
 .b-new{background:var(--white);color:#0A0A0C}
-.b-sale{background:#c62828;color:#fff}
+.b-sale{background:#2B4A45;color:#fff}
 .b-limited{background:#fff;color:var(--gold-d);border:1px solid var(--gold)}
 .wbtn{position:absolute;top:10px;right:10px;z-index:2;background:var(--white);width:32px;height:32px;display:flex;align-items:center;justify-content:center;border:1px solid var(--line);cursor:pointer;opacity:0;transition:opacity var(--t),background var(--t)}
 .pc:hover .wbtn,.wbtn.won{opacity:1}
@@ -184,7 +186,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .psz{display:flex;gap:8px;flex-wrap:wrap}
 .sd{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:600;padding:5px 8px;border:1px solid var(--line);color:var(--black);cursor:pointer;transition:all var(--t)}
 .sd:hover{border-color:var(--gold);color:var(--gold-d)}
- 
+
 @media(max-width:1024px){
   #pgrid{grid-template-columns:repeat(3,1fr);gap:20px}
   .hero-l{padding:60px 40px}
@@ -213,7 +215,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
   .trend-row{grid-template-columns:repeat(2,1fr) !important}
   .ai-banner{grid-column:span 2}
 }
- 
+
 /* ── 3D CUSTOMIZER ── */
 #customizer{padding:0 40px 80px;background:var(--bg)}
 .cust-hdr{max-width:1400px;margin:0 auto 28px}
@@ -235,9 +237,9 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .cust-blank{width:64%;max-width:220px;stroke:rgba(255,255,255,.28);stroke-width:1.6;fill:none;stroke-linejoin:round;stroke-linecap:round;transition:opacity .7s var(--ease);position:relative;z-index:1}
 .cust-real{position:absolute;inset:0;opacity:0;transition:opacity .7s var(--ease);z-index:2}
 .cust-progress{position:absolute;top:14px;left:14px;z-index:4;font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gray);background:rgba(0,0,0,.4);padding:6px 10px;border:1px solid var(--line);backdrop-filter:blur(4px)}
-.cust-opt.picked{border-bottom-color:rgba(198,118,59,.5)}
+.cust-opt.picked{border-bottom-color:rgba(178,58,46,.5)}
 .cust-opt.picked .cust-opt-val{color:var(--gold)}
-.cust-opt.picked .cust-ico{border-color:var(--gold);color:var(--gold);background:rgba(198,118,59,.08)}
+.cust-opt.picked .cust-ico{border-color:var(--gold);color:var(--gold);background:rgba(178,58,46,.08)}
 .cust-opt.picked .cust-opt-arrow{color:var(--gold)}
 .cust-opt.picked .cust-opt-arrow::before{content:'✓';margin-right:2px}
 .fit-row{display:flex;height:100%;min-height:420px}
@@ -255,7 +257,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .fab-sw{aspect-ratio:1;border:1px solid var(--line);margin-bottom:8px;transition:var(--t)}
 .fab-item:hover .fab-sw{border-color:var(--gold)}
 .fab-lbl{font-size:10px;color:rgba(242,240,236,.75);text-align:left}
- 
+
 /* ── AI RECOMMENDS BANNER ── */
 .trend-row{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr) 1.5fr;gap:20px}
 .ai-banner{position:relative;overflow:hidden;background:var(--dark);border:1px solid var(--line);display:flex;align-items:flex-end;min-height:280px}
@@ -263,7 +265,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .ai-banner-txt{position:relative;z-index:2;padding:26px;background:linear-gradient(to top,rgba(242,240,236,.55),transparent 70%);width:100%}
 .ai-eyebrow{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:8px}
 .ai-h{font-family:'Montserrat',sans-serif;font-size:22px;font-weight:900;text-transform:uppercase;color:#fff;line-height:1.1;margin-bottom:16px}
- 
+
 /* ── FEATURES BAR (pre-footer) ── */
 #ftrust{background:var(--dark);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 40px}
 .ftrust-in{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
@@ -271,7 +273,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .fti svg{width:26px;height:26px;stroke:var(--gold-d);fill:none;stroke-width:1.4;flex-shrink:0}
 .fti-lbl{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--black)}
 .fti-desc{font-size:10px;color:var(--gray);margin-top:2px}
- 
+
 /* CART SIDEBAR */
 #cart-ov{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1400;display:none}
 #cart-ov.open{display:block}
@@ -313,7 +315,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .wa-btn{width:100%;background:#25D366;color:var(--white);font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:15px;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;transition:background .2s;margin-top:8px}
 .wa-btn:hover{background:#1da851}
 .wa-btn svg{width:18px;height:18px;fill:var(--white);flex-shrink:0}
- 
+
 /* WISHLIST SIDEBAR */
 #wl-ov{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:1400;display:none}
 #wl-ov.open{display:block}
@@ -330,7 +332,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .wl-atc:hover{background:var(--gold);color:var(--ink)}
 .wl-rm{font-family:'Montserrat',sans-serif;font-size:9px;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:none;border:1px solid var(--gray2);color:var(--gray);padding:7px 10px;cursor:pointer;transition:var(--t)}
 .wl-rm:hover{border-color:#c62828;color:#c62828}
- 
+
 /* QUICK VIEW */
 #qv{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1700;display:none;align-items:center;justify-content:center;padding:20px}
 #qv.open{display:flex}
@@ -354,7 +356,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .sz:hover{border-color:var(--ink)}
 .sz.on{border-color:var(--ink);background:var(--ink);color:var(--white)}
 .qv-desc{font-size:12px;color:var(--gray);line-height:1.7}
- 
+
 /* SIZE GUIDE */
 #sg{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1900;display:none;align-items:center;justify-content:center;padding:20px}
 #sg.open{display:flex}
@@ -366,7 +368,7 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .sg-tbl td{padding:10px 14px;border-bottom:1px solid rgba(0,0,0,.06)}
 .sg-tbl tr:nth-child(even) td{background:var(--bone)}
 .sg-note{font-size:10px;color:var(--gray);margin-top:14px;font-family:'Montserrat',sans-serif;line-height:1.5}
- 
+
 /* DELIVERY ADDRESS */
 #addr{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1950;display:none;align-items:center;justify-content:center;padding:20px}
 #addr.open{display:flex}
@@ -396,11 +398,11 @@ select.addr-inp{appearance:none;-webkit-appearance:none;background-image:url("da
 .addr-confirm{display:flex;align-items:flex-start;gap:8px;font-size:11px;color:var(--ink);line-height:1.5;cursor:pointer;margin-top:4px}
 .addr-confirm input{margin-top:2px;flex-shrink:0;width:14px;height:14px;accent-color:var(--gold)}
 @media(max-width:520px){.addr-row{grid-template-columns:1fr}.addr-box{padding:30px 22px}}
- 
+
 /* TOAST */
 #toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(16px);background:var(--ink);color:var(--white);font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:13px 26px;z-index:3000;opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;white-space:nowrap;border-left:3px solid var(--gold)}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
- 
+
 @media(max-width:900px){
   #about{flex-direction:column}.about-txt{flex:none;padding:48px 32px}.about-img{min-height:280px}
   .ftrust-in{grid-template-columns:repeat(2,1fr)}
@@ -413,12 +415,12 @@ select.addr-inp{appearance:none;-webkit-appearance:none;background-image:url("da
 body::after{
   content:'';
   position:fixed;inset:0;z-index:9997;pointer-events:none;
-  box-shadow:inset 0 0 160px rgba(192,57,43,.22);
-  animation:maintVignette 4s ease-in-out infinite;
+  box-shadow:inset 0 0 220px rgba(122,38,32,.14);
+  animation:maintVignette 6s ease-in-out infinite;
 }
-@keyframes maintVignette{0%,100%{opacity:.6}50%{opacity:1}}
+@keyframes maintVignette{0%,100%{opacity:.5}50%{opacity:.85}}
 </style>
- 
+
 <style>
 :root{
   --ease:cubic-bezier(.22,1,.36,1);
@@ -426,7 +428,7 @@ body::after{
   --shadow-sm:0 2px 10px rgba(13,13,13,.06);
   --shadow-md:0 12px 32px rgba(13,13,13,.10);
   --shadow-lg:0 24px 64px rgba(13,13,13,.16);
-  --shadow-gold:0 8px 28px rgba(198,118,59,.28);
+  --shadow-gold:0 8px 28px rgba(178,58,46,.28);
   --glass-light:rgba(255,255,255,.72);
   --glass-dark:rgba(242,240,236,.55);
   --glass-border:rgba(255,255,255,.5);
@@ -437,7 +439,7 @@ body::after{
 }
 body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .hero-h1{letter-spacing:-1px;text-shadow:0 4px 30px rgba(0,0,0,.35)}
-.hero-h1 em{text-shadow:0 4px 24px rgba(198,118,59,.35)}
+.hero-h1 em{text-shadow:0 4px 24px rgba(178,58,46,.35)}
 .hero-sub{letter-spacing:.1px}
 .section-title{letter-spacing:1.5px;position:relative}
 .pname{letter-spacing:.15px}
@@ -466,7 +468,7 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .pc{transition:transform .45s var(--ease)}
 .pt{transition:box-shadow .45s var(--ease),border-color .45s var(--ease)}
 .pc:hover{transform:translateY(-6px)}
-.pc:hover .pt{box-shadow:0 24px 48px rgba(0,0,0,.55),0 0 0 1px rgba(198,118,59,.22),0 12px 40px rgba(198,118,59,.14)}
+.pc:hover .pt{box-shadow:0 24px 48px rgba(0,0,0,.55),0 0 0 1px rgba(178,58,46,.22),0 12px 40px rgba(178,58,46,.14)}
 .pt img{transition:transform .7s var(--ease)}
 .wbtn{transition:opacity .3s var(--ease),background .3s var(--ease),transform .3s var(--ease-spring);box-shadow:var(--shadow-sm)}
 .wbtn:hover{transform:scale(1.08)}
@@ -491,9 +493,9 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
 .fab-item{transition:transform .3s var(--ease)}
 .fab-item:hover{transform:translateY(-3px)}
 .fab-sw{transition:box-shadow .3s var(--ease),border-color .3s var(--ease)}
-.fab-item:hover .fab-sw{box-shadow:0 8px 20px rgba(198,118,59,.25)}
+.fab-item:hover .fab-sw{box-shadow:0 8px 20px rgba(178,58,46,.25)}
 .cust-opt{transition:padding-left .3s var(--ease),border-color .3s var(--ease)}
-.cust-opt:hover{padding-left:6px;border-bottom-color:rgba(198,118,59,.4)}
+.cust-opt:hover{padding-left:6px;border-bottom-color:rgba(178,58,46,.4)}
 .cust-opt:hover .cust-ico{border-color:var(--gold);color:var(--gold)}
 .cust-ico{transition:border-color .3s var(--ease),color .3s var(--ease)}
 .qvbtn{transition:transform .35s var(--ease),background .3s var(--ease)}
@@ -504,7 +506,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
 .titem,.fti{transition:transform .3s var(--ease)}
 .titem:hover,.fti:hover{transform:translateY(-3px)}
 .tico svg,.fti svg{transition:filter .3s var(--ease)}
-.titem:hover .tico svg{filter:drop-shadow(0 0 8px rgba(198,118,59,.5))}
+.titem:hover .tico svg{filter:drop-shadow(0 0 8px rgba(178,58,46,.5))}
 #feat{border-radius:6px;box-shadow:var(--shadow-lg)}
 .about-img img,.feat-bg img{transition:transform 1.2s var(--ease)}
 #about:hover .about-img img,#feat:hover .feat-bg img{transform:scale(1.04)}
@@ -530,8 +532,8 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
 .qb{transition:all .25s var(--ease)}
 .qb:hover{transform:scale(1.08)}
 #toast{box-shadow:var(--shadow-lg);border-radius:4px}
-#hero-3d-mount{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s var(--ease)}
-#hero-3d-mount.ready{opacity:1}
+#hero-3d-mount{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s var(--ease);z-index:1;mix-blend-mode:screen}
+#hero-3d-mount.ready{opacity:.4}
 #hero-3d-mount canvas{width:100% !important;height:100% !important;display:block}
 #ryzen-dynamic-sections{background:var(--dark)}
 .dyn-block{max-width:1320px;margin:0 auto;padding:70px 40px}
@@ -552,7 +554,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
 .dyn-faq-item{border-bottom:1px solid var(--line);padding:20px 0;max-width:760px;margin:0 auto}
 .dyn-faq-q{font-family:'Montserrat',sans-serif;font-size:15px;font-weight:700;color:var(--black);margin-bottom:10px}
 .dyn-faq-a{font-size:13.5px;line-height:1.8;color:rgba(242,240,236,.6)}
-.dyn-newsletter{text-align:center;background:rgba(198,118,59,.06);border:1px solid rgba(198,118,59,.2);border-radius:8px;padding:48px}
+.dyn-newsletter{text-align:center;background:rgba(178,58,46,.06);border:1px solid rgba(178,58,46,.2);border-radius:8px;padding:48px}
 .dyn-newsletter .dyn-h{margin-bottom:12px}
 .dyn-newsletter p{font-size:13.5px;color:rgba(242,240,236,.65);max-width:460px;margin:0 auto 22px}
 .dyn-countdown{text-align:center}
@@ -569,7 +571,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   .pc:hover .pt{box-shadow:none}
 }
 </style>
- 
+
 <style>
 .acct-wrap{position:relative}
 .acct-dd{
@@ -599,10 +601,10 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   text-transform:uppercase;color:var(--ink);
   transition:background .25s var(--ease,ease),color .25s var(--ease,ease),padding-left .25s var(--ease,ease);
 }
-.acct-link:hover{background:rgba(198,118,59,.08);color:var(--gold);padding-left:22px}
+.acct-link:hover{background:rgba(178,58,46,.08);color:var(--gold);padding-left:22px}
 .acct-divider{height:1px;background:rgba(0,0,0,.06);margin:6px 0}
 </style>
- 
+
 <style>
 #qv,#sg,#addr,#srch{
   display:flex !important;
@@ -645,7 +647,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   transition:transform .12s ease !important;
 }
 </style>
- 
+
 <style>
 .stag{
   position:absolute;
@@ -696,13 +698,24 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
 </style>
 </head>
 <body>
-<div style="background:repeating-linear-gradient(45deg,#C0392B,#C0392B 20px,#A02A1E 20px,#A02A1E 40px);background-size:200% 200%;color:#fff;font-size:15px;font-weight:800;text-align:center;padding:16px 12px;position:sticky;top:0;z-index:99999;font-family:'Montserrat',sans-serif;letter-spacing:1px;text-transform:uppercase;box-shadow:0 4px 20px rgba(192,57,43,.5);border-bottom:3px solid #fff;animation:maintStripe 3s linear infinite,maintPulse 2s ease-in-out infinite">⚠ BACKUP STORE — Main site is temporarily under maintenance ⚠</div>
+<div class="maint-banner"><span class="maint-dot"></span>You're viewing our backup store — the main site is temporarily down for maintenance.</div>
 <style>
-@keyframes maintStripe{0%{background-position:0 0}100%{background-position:56px 0}}
-@keyframes maintPulse{0%,100%{filter:brightness(1)}50%{filter:brightness(1.18)}}
-@keyframes maintBadgeGlow{0%,100%{box-shadow:0 0 0 rgba(192,57,43,.6)}50%{box-shadow:0 0 14px rgba(192,57,43,.9)}}
+.maint-banner{
+  position:sticky;top:0;z-index:99999;
+  background:var(--gold-d);
+  color:#F4E3CE;
+  font-family:'Inter',sans-serif;
+  font-size:13px;
+  font-weight:500;
+  text-align:center;
+  padding:11px 16px;
+  border-bottom:1px solid rgba(255,255,255,.12);
+  display:flex;align-items:center;justify-content:center;gap:9px;
+}
+.maint-dot{width:6px;height:6px;border-radius:50%;background:#E9B36B;flex-shrink:0;animation:maintDotPulse 2.2s ease-in-out infinite}
+@keyframes maintDotPulse{0%,100%{opacity:.45}50%{opacity:1}}
 </style>
- 
+
 <!-- PREMIUM LOADING SCREEN — additive, fades out on DOMContentLoaded + hard
      fallback timer (never waits on window.load / external fonts/images,
      which can hang and leave this stuck on screen). -->
@@ -725,12 +738,12 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   setTimeout(hideLoader,1800);
 })();
 </script>
- 
- 
+
+
 <!-- HEADER -->
 <header id='hdr'>
   <div class='hdr-in'>
-    <div class='logo'><span class='logo-r'>R</span> RAZARISER<span style="background:#C0392B;color:#fff;font-size:9px;font-weight:800;letter-spacing:1px;padding:3px 8px;border-radius:3px;margin-left:8px;vertical-align:middle;animation:maintBadgeGlow 2s ease-in-out infinite">BACKUP</span></div>
+    <div class='logo'><span class='logo-r'>R</span> RAZARISER<span class="backup-pill">Backup</span></div>
     <nav class='nav'>
       <a href='#hero'>Home</a>
       <a href='#shop'>Shop</a>
@@ -782,7 +795,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </header>
- 
+
 <!-- MOBILE NAV -->
 <nav id='mnav'>
   <button class='mnav-x' onclick='closeMobNav()'>✕</button>
@@ -793,7 +806,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   <a href='#'>About Us</a>
   <a href='#'>Pages</a>
 </nav>
- 
+
 <!-- SEARCH -->
 <div id='srch'>
   <button class='srch-x' onclick='closeSearch()'>✕</button>
@@ -802,11 +815,12 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     <div id='srch-results' style='margin-top:18px;max-height:50vh;overflow-y:auto'></div>
   </div>
 </div>
- 
+
 <!-- HERO -->
 <section id='hero'>
   <div id='hero-bg-3d'></div>
   <div class='hero-l'>
+    <div id='hero-emblem-3d' class='hero-emblem'></div>
     <div class='hero-tag'>NEW COLLECTION 2025</div>
     <h1 class='hero-h1'>Designed<br/>For The Future.</h1>
     <p class='hero-sub'>Premium clothing. Unlimited possibilities.<br/>Powered by AI. Crafted for you.</p>
@@ -854,7 +868,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </section>
- 
+
 <!-- TRUST BAR (legacy, hidden — kept for compatibility) -->
 <div id='trust'>
   <div class='trust-in'>
@@ -888,7 +902,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </div>
- 
+
 <!-- 3D CUSTOMIZER -->
 <section id='customizer'>
   <div class='cust-hdr'>
@@ -971,7 +985,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </section>
- 
+
 <!-- SHOP / TRENDING NOW -->
 <section id='shop'>
   <div class='shop-hdr'>
@@ -998,10 +1012,10 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </section>
- 
+
 <!-- ADMIN-MANAGED EXTRA SECTIONS (Pages panel → Homepage Sections) -->
 <section id='ryzen-dynamic-sections'></section>
- 
+
 <!-- FOOT TRUST / FEATURES BAR -->
 <div id='ftrust'>
   <div class='ftrust-in'>
@@ -1011,8 +1025,8 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     <div class='fti'><svg viewBox='0 0 24 24'><rect x='2' y='6' width='20' height='13' rx='2'/><path d='M2 10h20'/></svg><div><div class='fti-lbl'>Secure Payment</div><div class='fti-desc'>100% secure checkout</div></div></div>
   </div>
 </div>
- 
- 
+
+
 <!-- FOOTER -->
 <footer style='background:var(--dark);padding:60px 40px 30px;color:var(--black);font-size:13px;border-top:1px solid var(--line)'>
   <div style='max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:40px'>
@@ -1071,7 +1085,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </footer>
- 
+
 <!-- CART SIDEBAR -->
 <div id='cart-ov' onclick='closeCart()'></div>
 <div id='cart-sb'>
@@ -1091,14 +1105,14 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </button>
   </div>
 </div>
- 
+
 <!-- WISHLIST SIDEBAR -->
 <div id='wl-ov' onclick='closeWL()'></div>
 <div id='wl-sb'>
   <div class='sb-hdr'><span class='sb-ttl'>Wishlist</span><span class='sb-x' onclick='closeWL()'>&times;</span></div>
   <div class='wl-list' id='wl-list'></div>
 </div>
- 
+
 <!-- QUICK VIEW -->
 <div id='qv'>
   <div class='qv-box'>
@@ -1129,7 +1143,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </div>
- 
+
 <!-- SIZE GUIDE -->
 <div id='sg'>
   <div class='sg-box'>
@@ -1155,7 +1169,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </div>
- 
+
 <!-- DELIVERY ADDRESS -->
 <div id='addr'>
   <div class='addr-box'>
@@ -1206,18 +1220,18 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
     </div>
   </div>
 </div>
- 
+
 <!-- TOAST -->
 <div id='toast'></div>
- 
+
 <!-- Razorpay is now lazy-loaded only when checkout actually starts (see loadRazorpayScript() in rzpCheckout) instead of blocking every page load. -->
- 
+
 <!-- REACT ROOT (for AuthFlow component) -->
 <div id='root'></div>
- 
+
 <!-- Vite module script -->
 <script type='module' src='/src/main.jsx'></script>
- 
+
 <!-- Expose existing Supabase client to the classic storefront script for cart/wishlist sync.
      Adjust the import name below if supabaseClient.js uses a different export
      (e.g. `export default supabase` instead of `export const supabase`). -->
@@ -1225,7 +1239,7 @@ html{scrollbar-color:#2a2a2e var(--bg);scrollbar-width:thin}
   import { supabase } from '/src/supabaseClient.js';
   window.supabaseClient = supabase;
 </script>
- 
+
 <!-- EXISTING STOREFRONT SCRIPTS -->
 <script>
 //]]>
@@ -1303,17 +1317,17 @@ window.addEventListener('scroll',function(){
     hdr.classList.remove('scrolled');
   }
 });
- 
+
 /* ── WISHLIST ── */
 var wl=JSON.parse(localStorage.getItem('ryzen_wl')||'[]');
 var cart=JSON.parse(localStorage.getItem('ryzen_cart')||'[]');
 var coupon=null;
- 
+
 function saveWL(){localStorage.setItem('ryzen_wl',JSON.stringify(wl));updateWLBadge()}
 function saveCart(){localStorage.setItem('ryzen_cart',JSON.stringify(cart));updateCartBadge()}
 function updateWLBadge(){var b=document.getElementById('wl-b');if(b)b.textContent=wl.length}
 function updateCartBadge(){var b=document.getElementById('cart-b');if(b)b.textContent=cart.reduce(function(s,i){return s+i.qty},0)}
- 
+
 function togWL(btn,e){
   e.preventDefault();e.stopPropagation();
   var card=btn.closest('.pc');
@@ -1330,7 +1344,7 @@ function togWL(btn,e){
   }
   saveWL();renderWL();
 }
- 
+
 function attachClicks(){
   var cards=document.querySelectorAll('.pc');
   cards.forEach(function(c){
@@ -1341,7 +1355,7 @@ function attachClicks(){
     });
   });
 }
- 
+
 function openWL(){renderWL();document.getElementById('wl-ov').classList.add('open');document.getElementById('wl-sb').classList.add('open')}
 function closeWL(){document.getElementById('wl-ov').classList.remove('open');document.getElementById('wl-sb').classList.remove('open')}
 function renderWL(){
@@ -1367,7 +1381,7 @@ function wlToCart(i){
   addToCart({name:item.name,price:item.price,image:item.image,size:'M'});
   toast('Added to bag');
 }
- 
+
 /* ── CART ── */
 function addToCart(item){
   var existing=cart.find(function(c){return c.name===item.name&&c.size===item.size});
@@ -1443,7 +1457,7 @@ function waCheckout(){
   var msg='Hi, I would like to order:%0A'+lines+'%0A%0ATotal: ₹'+total.toLocaleString('en-IN');
   window.open('https://wa.me/?text='+msg,'_blank');
 }
- 
+
 /* ── QUICK VIEW ── */
 var qvCard=null,qvSize=null,qvIsCustom=false;
 var CUSTOM_FEE=870;
@@ -1509,8 +1523,8 @@ function qvBookNow(){
   addToCart({name:name,price:resolvePrice(price),image:img,size:sizeLabel});
   closeQV();openCart();
 }
- 
- 
+
+
 /* ── SIZE GUIDE ── */
 function openSG(){document.getElementById('sg').classList.add('open')}
 function closeSG(){fastClose('sg')}
@@ -1523,7 +1537,7 @@ function findMySize(){
   SIZE_CHART.forEach(function(row){var d=Math.abs(val-row.chest);if(d<minDiff){minDiff=d;closest=row}});
   r.textContent='Recommended Size: '+closest.size;
 }
- 
+
 /* ── DELIVERY ADDRESS + PINCODE VALIDATION ── */
 var pinTimer=null,pinValid=false;
 function fetchWithTimeout(url,ms){
@@ -1655,7 +1669,7 @@ function submitAddr(){
   if(!ok)return;
   rzpCheckout({name:name,phone:phone,pin:pin,line:line,city:city,state:state});
 }
- 
+
 /* ── RAZORPAY ORDER CHECKOUT ── */
 var razorpayLoadPromise=null;
 function loadRazorpayScript(){
@@ -1708,7 +1722,7 @@ function rzpCheckout(addr){
   }).catch(function(){toast('Could not start checkout. Please try again.')});
   });
 }
- 
+
 /* ── TOAST ── */
 var toastTimer=null;
 function toast(msg){
@@ -1717,7 +1731,7 @@ function toast(msg){
   clearTimeout(toastTimer);
   toastTimer=setTimeout(function(){t.classList.remove('show')},2400);
 }
- 
+
 /* ── ACCOUNT SYNC (Supabase) ── */
 function getUserId(){
   if(!window.supabaseClient)return Promise.resolve(null);
@@ -1806,21 +1820,21 @@ function syncOnSignIn(uid){
     if(event==='SIGNED_IN'&&session&&session.user){syncOnSignIn(session.user.id)}
   });
 })();
- 
+
 updateWLBadge();updateCartBadge();
 var fy=document.getElementById('fyear');if(fy)fy.textContent=new Date().getFullYear();
- 
+
 /* ── PRODUCT CATALOG ── */
 var WBTN_SVG='<svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>';
 var BADGE_MAP={pre:['b-pre','Pre-Order'],new:['b-new','New'],sale:['b-sale','Sale'],limited:['b-limited','Limited Edition']};
- 
+
 function priceHTML(p){
   if(p.originalPrice){
     return '<span class="og">₹'+p.originalPrice.toLocaleString('en-IN')+'</span><span class="sl">₹'+p.price.toLocaleString('en-IN')+'</span>';
   }
   return '₹'+p.price.toLocaleString('en-IN');
 }
- 
+
 function escAttr(s){
   return String(s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -1842,7 +1856,7 @@ function productCardHTML(p){
     '</div>'
   );
 }
- 
+
 function renderProducts(){
   var grid=document.getElementById('pgrid');
   fetch('/api/products?action=list')
@@ -1864,7 +1878,7 @@ function renderProducts(){
     });
 }
 document.addEventListener('DOMContentLoaded', renderProducts);
- 
+
 /* ── ADMIN-MANAGED EXTRA HOMEPAGE SECTIONS ── */
 function dynBlockHero(b){
   return "<div class='dyn-hero'>"+
@@ -1985,7 +1999,7 @@ function loadDynamicHomeSections(){
     .catch(function(){ });
 }
 document.addEventListener('DOMContentLoaded', loadDynamicHomeSections);
- 
+
 function filterCat(tab,cat){
   document.querySelectorAll('.ftab').forEach(function(t){t.classList.remove('on')});
   tab.classList.add('on');
@@ -1998,7 +2012,7 @@ function filterCat(tab,cat){
     }
   });
 }
- 
+
 /* ── ERROR MONITORING ── */
 (function(){
   function report(message,stack){
@@ -2025,15 +2039,15 @@ function filterCat(tab,cat){
     }).catch(function(){});
   }catch(e){}
 })();
- 
+
 //]]>
 </script>
- 
+
 <script>
 (function(){
   "use strict";
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- 
+
   function initReveal(){
     var targets = document.querySelectorAll('#shop .shop-hdr, .cust-hdr, .ai-banner, #ftrust');
     if(!targets.length) return;
@@ -2052,7 +2066,7 @@ function filterCat(tab,cat){
     }, { threshold: 0.12 });
     targets.forEach(function(el){ io.observe(el); });
   }
- 
+
   function initBadgeBump(){
     ['cart-b','wl-b'].forEach(function(id){
       var el = document.getElementById(id);
@@ -2069,7 +2083,7 @@ function filterCat(tab,cat){
       mo.observe(el, { childList:true, characterData:true, subtree:true });
     });
   }
- 
+
   function shouldSkip3D(){
     if(reduceMotion) return true;
     if(window.innerWidth < 480) return true;
@@ -2079,18 +2093,18 @@ function filterCat(tab,cat){
     if(typeof cores === 'number' && cores < 4) return true;
     return false;
   }
- 
+
   function initHero3D(){
     var mount = document.getElementById('hero-3d-mount');
     if(!mount || shouldSkip3D()) return;
- 
+
     var started = false;
     function start(){
       if(started) return;
       started = true;
       loadThreeAndRender(mount);
     }
- 
+
     if('IntersectionObserver' in window){
       var io = new IntersectionObserver(function(entries){
         entries.forEach(function(e){ if(e.isIntersecting){ start(); io.disconnect(); } });
@@ -2100,46 +2114,47 @@ function filterCat(tab,cat){
       window.addEventListener('load', start, { once:true });
     }
   }
- 
+
   function loadThreeAndRender(mount){
     import('https://unpkg.com/three@0.160.0/build/three.module.js')
       .then(function(THREE){
         var width = mount.clientWidth || mount.parentElement.clientWidth;
         var height = mount.clientHeight || mount.parentElement.clientHeight;
         if(!width || !height) return;
- 
+
         var renderer = new THREE.WebGLRenderer({ alpha:true, antialias:true, powerPreference:'low-power' });
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
         renderer.setSize(width, height);
         mount.appendChild(renderer.domElement);
- 
+
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(42, width/height, 0.1, 100);
         camera.position.set(0, 0, 5.2);
- 
+
         var geo = new THREE.IcosahedronGeometry(1.35, 1);
         var mat = new THREE.MeshStandardMaterial({
           color: 0xC9A84C, metalness: 0.85, roughness: 0.28,
-          emissive: 0x2a1f08, emissiveIntensity: 0.25, wireframe:false
+          emissive: 0x2a1f08, emissiveIntensity: 0.25, wireframe:false,
+          transparent:true, opacity:0.35
         });
         var mesh = new THREE.Mesh(geo, mat);
         scene.add(mesh);
- 
+
         var wireGeo = new THREE.IcosahedronGeometry(1.55, 1);
-        var wireMat = new THREE.MeshBasicMaterial({ color:0xE2C27D, wireframe:true, transparent:true, opacity:0.18 });
+        var wireMat = new THREE.MeshBasicMaterial({ color:0xE2C27D, wireframe:true, transparent:true, opacity:0.28 });
         var wireMesh = new THREE.Mesh(wireGeo, wireMat);
         scene.add(wireMesh);
- 
+
         var key = new THREE.PointLight(0xE2C27D, 2.2, 12);
         key.position.set(3, 2, 4);
         scene.add(key);
         var fill = new THREE.AmbientLight(0x33261a, 1.1);
         scene.add(fill);
- 
+
         var clock = new THREE.Clock();
         var visible = true;
         var raf = null;
- 
+
         function animate(){
           raf = requestAnimationFrame(animate);
           var dt = clock.getDelta();
@@ -2151,14 +2166,14 @@ function filterCat(tab,cat){
         }
         animate();
         mount.classList.add('ready');
- 
+
         function pause(){ if(raf){ cancelAnimationFrame(raf); raf = null; } }
         function resume(){ if(!raf && visible && document.visibilityState === 'visible'){ animate(); } }
- 
+
         document.addEventListener('visibilitychange', function(){
           if(document.visibilityState === 'hidden') pause(); else resume();
         });
- 
+
         if('IntersectionObserver' in window){
           var vio = new IntersectionObserver(function(entries){
             entries.forEach(function(e){
@@ -2168,7 +2183,7 @@ function filterCat(tab,cat){
           }, { threshold: 0 });
           vio.observe(mount);
         }
- 
+
         function onResize(){
           var w = mount.clientWidth || mount.parentElement.clientWidth;
           var h = mount.clientHeight || mount.parentElement.clientHeight;
@@ -2180,18 +2195,18 @@ function filterCat(tab,cat){
       })
       .catch(function(){ });
   }
- 
+
   function initHeroBGParticles(){
     var mount = document.getElementById('hero-bg-3d');
     if(!mount || shouldSkip3D()) return;
- 
+
     var started = false;
     function start(){
       if(started) return;
       started = true;
       loadThreeAndRenderBG(mount);
     }
- 
+
     if('IntersectionObserver' in window){
       var io = new IntersectionObserver(function(entries){
         entries.forEach(function(e){ if(e.isIntersecting){ start(); io.disconnect(); } });
@@ -2201,23 +2216,23 @@ function filterCat(tab,cat){
       window.addEventListener('load', start, { once:true });
     }
   }
- 
+
   function loadThreeAndRenderBG(mount){
     import('https://unpkg.com/three@0.160.0/build/three.module.js')
       .then(function(THREE){
         var width = mount.clientWidth || mount.parentElement.clientWidth;
         var height = mount.clientHeight || mount.parentElement.clientHeight;
         if(!width || !height) return;
- 
+
         var renderer = new THREE.WebGLRenderer({ alpha:true, antialias:true, powerPreference:'low-power' });
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.6));
         renderer.setSize(width, height);
         mount.appendChild(renderer.domElement);
- 
+
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(50, width/height, 0.1, 60);
         camera.position.set(0, 0, 14);
- 
+
         var COUNT = width < 900 ? 90 : 220;
         var positions = new Float32Array(COUNT * 3);
         var speeds = new Float32Array(COUNT);
@@ -2235,7 +2250,7 @@ function filterCat(tab,cat){
         });
         var points = new THREE.Points(pGeo, pMat);
         scene.add(points);
- 
+
         var pMat2 = new THREE.PointsMaterial({
           color: 0xF2F0EC, size: 0.038, transparent:true, opacity:0.32,
           sizeAttenuation:true, blending:THREE.AdditiveBlending, depthWrite:false
@@ -2243,7 +2258,7 @@ function filterCat(tab,cat){
         var points2 = new THREE.Points(pGeo, pMat2);
         points2.position.z = 1.5;
         scene.add(points2);
- 
+
         var ring1 = new THREE.Mesh(
           new THREE.TorusGeometry(4.6, 0.012, 8, 90),
           new THREE.MeshBasicMaterial({ color:0xC6763B, transparent:true, opacity:0.25 })
@@ -2251,23 +2266,23 @@ function filterCat(tab,cat){
         ring1.position.set(5.5, 1.5, -4);
         ring1.rotation.x = Math.PI/2.4;
         scene.add(ring1);
- 
+
         var ring2 = new THREE.Mesh(
           new THREE.IcosahedronGeometry(1.9, 0),
           new THREE.MeshBasicMaterial({ color:0xF2F0EC, wireframe:true, transparent:true, opacity:0.10 })
         );
         ring2.position.set(-6, -2.2, -5);
         scene.add(ring2);
- 
+
         var clock = new THREE.Clock();
         var visible = true;
         var raf = null;
- 
+
         function animate(){
           raf = requestAnimationFrame(animate);
           var dt = Math.min(clock.getDelta(), 0.05);
           var t = clock.getElapsedTime();
- 
+
           var pos = pGeo.attributes.position.array;
           for(var i=0;i<COUNT;i++){
             pos[i*3+1] += dt * speeds[i] * 0.4;
@@ -2275,25 +2290,25 @@ function filterCat(tab,cat){
             if(pos[i*3+1] > 7){ pos[i*3+1] = -7; }
           }
           pGeo.attributes.position.needsUpdate = true;
- 
+
           points.rotation.y += dt * 0.015;
           points2.rotation.y -= dt * 0.010;
           ring1.rotation.z += dt * 0.06;
           ring2.rotation.x += dt * 0.04;
           ring2.rotation.y += dt * 0.05;
- 
+
           renderer.render(scene, camera);
         }
         animate();
         mount.classList.add('ready');
- 
+
         function pause(){ if(raf){ cancelAnimationFrame(raf); raf = null; } }
         function resume(){ if(!raf && visible && document.visibilityState === 'visible'){ animate(); } }
- 
+
         document.addEventListener('visibilitychange', function(){
           if(document.visibilityState === 'hidden') pause(); else resume();
         });
- 
+
         if('IntersectionObserver' in window){
           var vio = new IntersectionObserver(function(entries){
             entries.forEach(function(e){
@@ -2303,7 +2318,7 @@ function filterCat(tab,cat){
           }, { threshold: 0 });
           vio.observe(mount);
         }
- 
+
         function onResize(){
           var w = mount.clientWidth || mount.parentElement.clientWidth;
           var h = mount.clientHeight || mount.parentElement.clientHeight;
@@ -2315,7 +2330,110 @@ function filterCat(tab,cat){
       })
       .catch(function(){ });
   }
- 
+
+  function initHeroEmblem3D(){
+    var mount = document.getElementById('hero-emblem-3d');
+    if(!mount || shouldSkip3D()) return;
+
+    var started = false;
+    function start(){
+      if(started) return;
+      started = true;
+      loadThreeAndRenderEmblem(mount);
+    }
+
+    if('IntersectionObserver' in window){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting){ start(); io.disconnect(); } });
+      }, { threshold: 0.1 });
+      io.observe(mount);
+    } else {
+      window.addEventListener('load', start, { once:true });
+    }
+  }
+
+  function loadThreeAndRenderEmblem(mount){
+    import('https://unpkg.com/three@0.160.0/build/three.module.js')
+      .then(function(THREE){
+        var width = mount.clientWidth || 120;
+        var height = mount.clientHeight || 120;
+        if(!width || !height) return;
+
+        var renderer = new THREE.WebGLRenderer({ alpha:true, antialias:true, powerPreference:'low-power' });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
+        renderer.setSize(width, height);
+        mount.appendChild(renderer.domElement);
+
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(45, width/height, 0.1, 20);
+        camera.position.set(0, 0, 3.6);
+
+        // A distinct, always-visible animated emblem — a rotating gold
+        // torus-knot — separate from the subtle jacket-photo accent, so it
+        // reads clearly as decorative motion rather than blending into a
+        // product photo.
+        var geo = new THREE.TorusKnotGeometry(0.62, 0.21, 140, 20);
+        var mat = new THREE.MeshStandardMaterial({
+          color: 0xC9A84C, metalness: 0.82, roughness: 0.25,
+          emissive: 0x3a2a0c, emissiveIntensity: 0.35
+        });
+        var mesh = new THREE.Mesh(geo, mat);
+        scene.add(mesh);
+
+        var key = new THREE.PointLight(0xE2C27D, 2.4, 10);
+        key.position.set(2.2, 2, 3);
+        scene.add(key);
+        var rim = new THREE.PointLight(0xffffff, 0.9, 10);
+        rim.position.set(-2, -1.5, 2);
+        scene.add(rim);
+        var fill = new THREE.AmbientLight(0x33261a, 1.0);
+        scene.add(fill);
+
+        var clock = new THREE.Clock();
+        var visible = true;
+        var raf = null;
+
+        function animate(){
+          raf = requestAnimationFrame(animate);
+          var dt = clock.getDelta();
+          var t = clock.getElapsedTime();
+          mesh.rotation.x += dt * 0.35;
+          mesh.rotation.y += dt * 0.5;
+          mesh.position.y = Math.sin(t * 1.1) * 0.12; // gentle floating bob
+          renderer.render(scene, camera);
+        }
+        animate();
+        mount.classList.add('ready');
+
+        function pause(){ if(raf){ cancelAnimationFrame(raf); raf = null; } }
+        function resume(){ if(!raf && visible && document.visibilityState === 'visible'){ animate(); } }
+
+        document.addEventListener('visibilitychange', function(){
+          if(document.visibilityState === 'hidden') pause(); else resume();
+        });
+
+        if('IntersectionObserver' in window){
+          var vio = new IntersectionObserver(function(entries){
+            entries.forEach(function(e){
+              visible = e.isIntersecting;
+              if(!visible) pause(); else resume();
+            });
+          }, { threshold: 0 });
+          vio.observe(mount);
+        }
+
+        function onResize(){
+          var w = mount.clientWidth || 120;
+          var h = mount.clientHeight || 120;
+          if(!w || !h) return;
+          camera.aspect = w/h; camera.updateProjectionMatrix();
+          renderer.setSize(w, h);
+        }
+        window.addEventListener('resize', onResize);
+      })
+      .catch(function(){ });
+  }
+
   var custPicked = {};
   window.pickCustOpt = function(el, key, value){
     var valEl = el.querySelector('.cust-opt-val');
@@ -2330,7 +2448,7 @@ function filterCat(tab,cat){
     }
     updateCustPreview();
   };
- 
+
   function updateCustPreview(){
     var total = 6;
     var count = Object.keys(custPicked).length;
@@ -2348,14 +2466,15 @@ function filterCat(tab,cat){
       else btn.textContent = 'Continue Designing (' + count + '/' + total + ') →';
     }
   }
- 
+
   function init(){
     initReveal();
     initBadgeBump();
     initHero3D();
     initHeroBGParticles();
+    initHeroEmblem3D();
   }
- 
+
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', init);
   } else {
@@ -2363,11 +2482,11 @@ function filterCat(tab,cat){
   }
 })();
 </script>
- 
+
 <script>
 (function(){
   "use strict";
- 
+
   window.toggleAcctMenu = function(e){
     if(e) e.stopPropagation();
     document.getElementById('acct-dd').classList.toggle('open');
@@ -2382,12 +2501,12 @@ function filterCat(tab,cat){
   document.addEventListener('keydown', function(e){
     if(e.key === 'Escape') window.closeAcctMenu();
   });
- 
+
   window.acctNav = function(step){
     window.closeAcctMenu();
     window.dispatchEvent(new CustomEvent('ryzen:open-auth', { detail:{ step: step } }));
   };
- 
+
   window.acctAuthAction = function(){
     window.closeAcctMenu();
     getUserId().then(function(uid){
@@ -2401,7 +2520,7 @@ function filterCat(tab,cat){
       }
     });
   };
- 
+
   function refreshAcctGreeting(session){
     var greet = document.getElementById('acct-greet');
     var sub = document.getElementById('acct-greet-sub');
@@ -2419,7 +2538,7 @@ function filterCat(tab,cat){
       action.textContent = 'Sign In';
     }
   }
- 
+
   function initAcctGreeting(){
     if(!window.supabaseClient) return;
     window.supabaseClient.auth.getSession().then(function(res){
@@ -2430,7 +2549,7 @@ function filterCat(tab,cat){
       if(event === 'SIGNED_OUT') refreshAcctGreeting(null);
     });
   }
- 
+
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', initAcctGreeting);
   }else{
@@ -2440,4 +2559,3 @@ function filterCat(tab,cat){
 </script>
 </body>
 </html>
- 
